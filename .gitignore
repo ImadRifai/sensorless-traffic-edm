@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.venv/
+.env
+.env*
+.DS_Store
+/cache/
+/notebooks/cache/
+# Ignore only the root raw-data folder (large internship CSVs), NOT EDM/data/,
+# whose parquet artifacts must be committed for the Streamlit Cloud deploy.
+/data/

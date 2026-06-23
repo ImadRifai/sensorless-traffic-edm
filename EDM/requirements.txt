@@ -1,0 +1,13 @@
+# Runtime dependencies for the Streamlit app (no OSMnx/GeoPandas needed:
+# predictions are precomputed offline by scripts/build_artifacts.py).
+# Pins kept compatible with the serialized model (scikit-learn 1.7 / xgboost 3.1).
+streamlit==1.58.0
+folium==0.20.0
+altair==6.2.1
+pandas==2.3.3
+numpy==2.3.3
+scikit-learn==1.7.2
+xgboost==3.1.1
+joblib==1.5.2
+pyarrow==24.0.0
+requests==2.32.5

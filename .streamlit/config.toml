@@ -1,0 +1,15 @@
+# Read by Streamlit from the working directory (repo root) and by Streamlit
+# Community Cloud at the repo root. Institutional light theme.
+[theme]
+base = "light"
+primaryColor = "#0F6E82"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F2F6F8"
+textColor = "#16323F"
+font = "sans serif"
+
+[server]
+headless = true
+
+[browser]
+gatherUsageStats = false
